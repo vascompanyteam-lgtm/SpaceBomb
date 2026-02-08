@@ -1,6 +1,6 @@
 workflows:
   unity-build:
-    name: Unity Build - ChickAndEgg
+    name: Unity Build - SpaceBomb
     instance_type: mac_mini_m2
     max_build_duration: 120
     environment:
@@ -38,7 +38,7 @@ workflows:
           -batchmode -quit -returnLicense || true
 
     artifacts:
-      - ChickAndEgg.aab
-      - ChickAndEgg.apk
+      - SpaceBomb.aab
+      - SpaceBomb.apk
       - unity_build.log
       - unity_license.log
