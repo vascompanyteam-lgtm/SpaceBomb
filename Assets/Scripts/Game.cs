@@ -10,7 +10,7 @@ public class Game : MonoBehaviour
 {
 
 	public Transform gameOver;
-	public bool gameOn;
+	public bool kamerongOn;
 	public ParticleSystem particleSystemNextLevel;
 	private sealed class displayClass
 	{
@@ -266,7 +266,7 @@ public class Game : MonoBehaviour
 		}
 		this.txt.text = "Level " + this.level;
 		this.GenerateNewLevel(this.level);
-		gameOn = true;
+		kamerongOn = true;
 	}
 
 	public void ContinueCallback()
@@ -290,7 +290,7 @@ public class Game : MonoBehaviour
 	public void GameExit()
 	{
 		
-			gameOn = false;
+			kamerongOn = false;
 			StopAllCoroutines();
 			if (OnClear != null)
 			{ OnClear.Invoke(); }
@@ -376,7 +376,7 @@ public class Game : MonoBehaviour
 
 	private void Update()
 	{
-		if (gameOn)
+		if (kamerongOn)
 		{
 			Vector3 mousePosition = UnityEngine.Input.mousePosition;
 			Vector3 vector = Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, Camera.main.transform.position.z * -1f));
@@ -408,7 +408,7 @@ public class Game : MonoBehaviour
 			}
 		}
 		this.endOfTurn = false;
-		gameOn = true;
+		kamerongOn = true;
 	}
 
 	public void StartLoadGameLevel()

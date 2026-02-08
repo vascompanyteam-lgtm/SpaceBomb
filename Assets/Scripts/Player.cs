@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
 	private void Update()
 	{
-		if (game.gameOn==true)
+		if (game.kamerongOn==true)
 		{
 			if (base.transform.position.y < Game.BottomLineY)
 			{
