@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 	public Game game;
 	[HideInInspector]
 	public Rigidbody rb;
-
+	public int massCant;
 	[HideInInspector]
 	public TrailRenderer tr;
 
@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 		this.tr = base.GetComponent<TrailRenderer>();
 		this.rb = base.GetComponent<Rigidbody>();
 		Game.Instance.endOfTurn = true;
+		massCant = 1;
 	}
 
 	private void Update()
@@ -49,7 +50,9 @@ public class Player : MonoBehaviour
 		if (col.collider.name == "Wall")
 		{
 			num *= 10f;
+			massCant++;
 		}
+
 		this.rb.AddForce(a * num);
 	}
 }

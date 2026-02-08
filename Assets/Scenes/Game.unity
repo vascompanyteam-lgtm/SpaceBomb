@@ -1137,8 +1137,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -122.5647, y: 267.6981}
-  m_SizeDelta: {x: 2146.068, y: 1430.4}
+  m_AnchoredPosition: {x: -122.5647, y: 40}
+  m_SizeDelta: {x: 1024, y: 1024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &518266494
 Animator:
@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2ec4bad4a2e4dab4699fef6d1731a04d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab6cdb098be2aa841a3b90459ae21091, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1862,7 +1862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195.4}
+  m_AnchoredPosition: {x: 0, y: 110.5}
   m_SizeDelta: {x: 585.854, y: 585.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958482251
@@ -2223,7 +2223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152.1, y: -194.4}
+  m_AnchoredPosition: {x: 163.1, y: 379.5}
   m_SizeDelta: {x: 70.803, y: 70.803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190534485
@@ -3902,7 +3902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -192.8}
+  m_AnchoredPosition: {x: 0, y: -305.8}
   m_SizeDelta: {x: 214.384, y: 167.462}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117849270
@@ -17439,7 +17439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 1789926589505100930}
-  gameOn: 0
+  kamerongOn: 0
   particleSystemNextLevel: {fileID: 7938384440044149143}
   menu: {fileID: 1789926589505100772}
   txt: {fileID: 768473473}
@@ -17622,6 +17622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100961
 MonoBehaviour:
@@ -17637,6 +17638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100962
 MonoBehaviour:
@@ -17652,6 +17654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100963
 MonoBehaviour:
@@ -17667,6 +17670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100964
 MonoBehaviour:
@@ -17682,6 +17686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100965
 MonoBehaviour:
@@ -17697,6 +17702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100966
 MonoBehaviour:
@@ -17712,6 +17718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100967
 MonoBehaviour:
@@ -17727,6 +17734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100968
 MonoBehaviour:
@@ -17742,6 +17750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!114 &1789926589505100969
 MonoBehaviour:
@@ -17757,6 +17766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   game: {fileID: 1789926589505100946}
   rb: {fileID: 0}
+  massCant: 0
   tr: {fileID: 0}
 --- !u!198 &5559816544604799903
 ParticleSystem:
