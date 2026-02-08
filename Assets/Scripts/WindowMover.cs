@@ -13,7 +13,7 @@ public class WindowMover : MonoBehaviour
 
     public void SetMainMenu()
     {
-        
+        ////////////////////////////////////
             animator.Play("Animation");
             mainMenu.SetActive(true);
             gamePlay.SetActive(false);
@@ -24,6 +24,8 @@ public class WindowMover : MonoBehaviour
 
     public void SetGamePlay()
     {
+
+        ////////////////////////////////////
         animator.Play("Animation");
         soundAudio.playUIclick();
         gamePlay.SetActive(true);
@@ -34,6 +36,7 @@ public class WindowMover : MonoBehaviour
 
     public void SetSettings()
     {
+        ///////////////////////////
         animator.Play("Animation");
         soundAudio.playUIclick();
         gamePlay.SetActive(false);
