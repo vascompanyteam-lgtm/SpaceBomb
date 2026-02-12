@@ -866,8 +866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131.44, y: 33.235}
-  m_SizeDelta: {x: 78.243, y: 95.831}
+  m_AnchoredPosition: {x: -146.19, y: 30.659}
+  m_SizeDelta: {x: 107.742, y: 100.984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &264035310
 Animator:
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 164883904, guid: 79823c3d0690c2746acd2e6f16d235c1, type: 3}
+  m_Sprite: {fileID: -862301466, guid: 79823c3d0690c2746acd2e6f16d235c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1885,7 +1885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4bf921acdaa657540a4af9ee8244ad9e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56a15798f4207f444ab5ced4fca8067e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17439,7 +17439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: {fileID: 1789926589505100930}
-  gameOn: 0
+  kamerongOn: 0
   particleSystemNextLevel: {fileID: 7938384440044149143}
   menu: {fileID: 1789926589505100772}
   txt: {fileID: 768473473}
